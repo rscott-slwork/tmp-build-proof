@@ -1,0 +1,294 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  30/Jun/2021  01:36:17
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Exe\concept.out
+#    Map file     =
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\List\concept.map
+#    Command line =
+#        -f \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Exe\concept.out.rsp
+#        (\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\adc\adc.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\boards\user_board\init.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\main.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pio\pio.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\config\pio_config.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pio\pio_handler.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pmc\pmc.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pmc\sleep.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\spi\spi.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\services\clock\sam3s\sysclk.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\sam\utils\cmsis\sam3s\source\templates\system_sam3s.o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\uart\uart.o
+#        --no_out_extension -o
+#        \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Exe\concept.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map \\Mac\Home\Desktop\ant_merge_pump_test\Debug\List\concept.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\Microchip\sam3s2c\flash.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x40'0000 { ro section .intvec };
+"P1":  place in [from 0x40'0000 to 0x41'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .eram0  in "P3"
+  section .eram1  in "P4"
+  section .eram2  in "P5"
+  section .eram3  in "P6"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code    0x40'0000    0x40  vector_table_M.o [13]
+                              - 0x40'0040    0x40
+
+"P1":                                       0x36c
+  Initializer bytes  const      0x40'0040    0xac  <for P2-1>
+  Veneer             ro code    0x40'00ec     0x8  - Linker created -
+  .text              ro code    0x40'00f4    0x9c  main.o [1]
+  .text              ro code    0x40'0190    0x2c  pio_config.o [10]
+  .text              ro code    0x40'01bc    0x64  pmc.o [6]
+  .text              ro code    0x40'0220    0x8e  pio.o [5]
+  .text              ro code    0x40'02ae    0x2a  copy_init3.o [13]
+  .text              ro code    0x40'02d8    0x2c  iarttio.o [14]
+  .text              ro code    0x40'0304     0x8  XShttio.o [11]
+  .text              ro code    0x40'030c    0x28  data_init.o [13]
+  .iar.init_table    const      0x40'0334    0x14  - Linker created -
+  .text              ro code    0x40'0348    0x1e  cmain.o [13]
+  .text              ro code    0x40'0366     0x4  low_level_init.o [11]
+  .text              ro code    0x40'036a     0x4  exit.o [11]
+  .text              ro code    0x40'036e     0x2  vectortrap_M.o [13]
+  .text              ro code    0x40'0370     0xa  cexit.o [13]
+  .text              ro code    0x40'037c    0x14  exit.o [14]
+  .text              ro code    0x40'0390    0x1c  cstartup_M.o [13]
+  .rodata            const      0x40'03ac     0x0  copy_init3.o [13]
+                              - 0x40'03ac   0x36c
+
+"P2", part 1 of 2:                           0xac
+  P2-1                        0x2000'0000    0xac  <Init block>
+    .data            inited   0x2000'0000     0x4  system_sam3s.o [9]
+    .data            inited   0x2000'0004     0x8  XShttio.o [11]
+    .textrw          inited   0x2000'000c    0xa0  system_sam3s.o [9]
+                            - 0x2000'00ac    0xac
+
+"P2", part 2 of 2:                         0x1000
+  CSTACK                      0x2000'00b0  0x1000  <Block>
+    CSTACK           uninit   0x2000'00b0  0x1000  <Block tail>
+                            - 0x2000'10b0  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+    0x40'03ac    0x41'ffff  0x1'fc54
+  0x2000'00ac  0x2000'00af       0x4
+  0x2000'10b0  0x2000'7fff    0x6f50
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0xac:
+            0x40'0040  0xac
+    1 destination range, total size 0xac:
+          0x2000'0000  0xac
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj: [1]
+    main.o                156
+    ----------------------------------------------------
+    Total:                156
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\boards\user_board: [2]
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\services\clock\sam3s: [3]
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\adc: [4]
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pio: [5]
+    pio.o                 142
+    ----------------------------------------------------
+    Total:                142
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pmc: [6]
+    pmc.o                 100
+    ----------------------------------------------------
+    Total:                100
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\spi: [7]
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\uart: [8]
+    ----------------------------------------------------
+    Total:
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\sam\utils\cmsis\sam3s\source\templates: [9]
+    system_sam3s.o                 160      164        4
+    ----------------------------------------------------
+    Total:                         160      164        4
+
+\\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\config: [10]
+    pio_config.o           44
+    ----------------------------------------------------
+    Total:                 44
+
+dl7M_tln.a: [11]
+    XShttio.o               8                 8        8
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                 16                 8        8
+
+m7M_tl.a: [12]
+    ----------------------------------------------------
+    Total:
+
+rt7M_tl.a: [13]
+    cexit.o                10
+    cmain.o                30
+    copy_init3.o           42
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    ----------------------------------------------------
+    Total:                216
+
+shb_l.a: [14]
+    exit.o                 20
+    iarttio.o              44
+    ----------------------------------------------------
+    Total:                 64
+
+    Gaps                    2
+    Linker created          8                20    4'096
+--------------------------------------------------------
+    Grand Total:          748      160      192    4'108
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base     0x40'0334         --   Gb  - Linker created -
+.iar.init_table$$Limit    0x40'0348         --   Gb  - Linker created -
+?main                     0x40'0349        Code  Gb  cmain.o [13]
+BusFault_Handler          0x40'036f        Code  Wk  vectortrap_M.o [13]
+CSTACK$$Base            0x2000'00b0         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'10b0         --   Gb  - Linker created -
+DebugMon_Handler          0x40'036f        Code  Wk  vectortrap_M.o [13]
+HardFault_Handler         0x40'036f        Code  Wk  vectortrap_M.o [13]
+MemManage_Handler         0x40'036f        Code  Wk  vectortrap_M.o [13]
+NMI_Handler               0x40'036f        Code  Wk  vectortrap_M.o [13]
+PendSV_Handler            0x40'036f        Code  Wk  vectortrap_M.o [13]
+Region$$Table$$Base       0x40'0334         --   Gb  - Linker created -
+Region$$Table$$Limit      0x40'0348         --   Gb  - Linker created -
+SVC_Handler               0x40'036f        Code  Wk  vectortrap_M.o [13]
+SysTick_Config            0x40'0119  0x2e  Code  Lc  main.o [1]
+SysTick_Handler           0x40'036f        Code  Wk  vectortrap_M.o [13]
+SystemCoreClock         0x2000'0000   0x4  Data  Gb  system_sam3s.o [9]
+SystemInit              0x2000'000d  0x76  Code  Gb  system_sam3s.o [9]
+UsageFault_Handler        0x40'036f        Code  Wk  vectortrap_M.o [13]
+__NVIC_SetPriority        0x40'00f5  0x24  Code  Lc  main.o [1]
+__cmain                   0x40'0349        Code  Gb  cmain.o [13]
+__exit                    0x40'037d  0x14  Code  Gb  exit.o [14]
+__iar_close_ttio          0x40'02d9  0x2c  Code  Gb  iarttio.o [14]
+__iar_copy_init3          0x40'02af  0x2a  Code  Gb  copy_init3.o [13]
+__iar_data_init3          0x40'030d  0x28  Code  Gb  data_init.o [13]
+__iar_lookup_ttioh        0x40'0305   0x8  Code  Gb  XShttio.o [11]
+__iar_program_start       0x40'0391        Code  Gb  cstartup_M.o [13]
+__iar_ttio_handles      0x2000'0004   0x8  Data  Lc  XShttio.o [11]
+__low_level_init          0x40'0367   0x4  Code  Gb  low_level_init.o [11]
+__vector_table            0x40'0000        Data  Gb  vector_table_M.o [13]
+_call_main                0x40'0355        Code  Gb  cmain.o [13]
+_exit                     0x40'0371        Code  Gb  cexit.o [13]
+configure_io              0x40'0191  0x2c  Code  Gb  pio_config.o [10]
+exit                      0x40'036b   0x4  Code  Gb  exit.o [11]
+main                      0x40'0147  0x2c  Code  Gb  main.o [1]
+pio_disable_interrupt     0x40'02ab   0x4  Code  Gb  pio.o [5]
+pio_pull_up               0x40'0221   0xc  Code  Gb  pio.o [5]
+pio_set_input             0x40'022d  0x40  Code  Gb  pio.o [5]
+pio_set_output            0x40'026d  0x3e  Code  Gb  pio.o [5]
+pmc_enable_periph_clk     0x40'01bd  0x54  Code  Gb  pmc.o [6]
+
+
+[1] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj
+[2] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\boards\user_board
+[3] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\common\services\clock\sam3s
+[4] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\adc
+[5] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pio
+[6] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\pmc
+[7] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\spi
+[8] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\drivers\uart
+[9] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\ASF\sam\utils\cmsis\sam3s\source\templates
+[10] = \\Mac\Home\Desktop\ant_merge_pump_test\Debug\Obj\config
+[11] = dl7M_tln.a
+[12] = m7M_tl.a
+[13] = rt7M_tl.a
+[14] = shb_l.a
+
+    748 bytes of readonly  code memory
+    160 bytes of readwrite code memory
+    192 bytes of readonly  data memory
+  4'108 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
