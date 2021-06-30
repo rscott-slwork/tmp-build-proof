@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armjlink2.dll" 
+
+"\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar\Debug\Exe\cmsis_cm3_bit_banding_example_flash.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\debugger\Microchip\SAM3S.dmac" 
+
+--macro="\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar\../../../../../boards/sam3s_ek/debug_scripts/iar/sam3s_ek_flash.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\Microchip\sam3s4\sam3s4-flash.board" 
+
+
+
+

@@ -1,0 +1,100 @@
+sysclk.pbi: \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\osc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../../common/boards\board.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../..\compiler.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iar_intrinsics_common.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../../common/utils\parts.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../preprocessor\preprocessor.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../preprocessor/tpaste.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../preprocessor/stringz.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../preprocessor/mrepeat.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../preprocessor/preprocessor.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../header_files\io.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include\sam3s.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/sam3s4c.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include\core_cm3.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/cmsis_version.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/mpu_armv7.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/source/templates\system_sam3s.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_acc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_adc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_chipid.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_crccu.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_dacc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_efc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_gpbr.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_hsmci.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_matrix.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_pdc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_pio.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_pmc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_pwm.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_rstc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_rtc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_rtt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_smc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_spi.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_ssc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_supc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_tc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_twi.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_uart.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_udp.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_usart.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/component/component_wdt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_hsmci.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_ssc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_spi.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_tc0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_tc1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_twi0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_twi1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_pwm.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_usart0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_usart1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_udp.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_adc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_dacc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_acc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_crccu.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_smc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_matrix.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_pmc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_uart0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_chipid.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_uart1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_efc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_pioa.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_piob.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_pioc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_rstc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_supc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_rtt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_wdt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_rtc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/instance/instance_gpbr.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/include/pio/pio_sam3s4c.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product_stdlib.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../../common/utils\interrupt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../../common/utils/interrupt/interrupt_sam_nvic.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../boards\sam3s_ek/sam3s_ek.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../sam3s/source/templates\exceptions.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\cm3_bit_banding_example\sam3s4c_sam3s_ek\iar/../../../../../drivers/pmc\pmc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\pll.h

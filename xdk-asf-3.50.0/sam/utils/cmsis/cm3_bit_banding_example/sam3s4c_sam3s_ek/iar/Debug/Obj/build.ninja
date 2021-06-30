@@ -1,0 +1,42 @@
+#Generating source browse information for project cmsis_cm3_bit_banding_example_flash
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build sysclk.pbi : index sysclk.xcl
+build interrupt_sam_nvic.pbi : index interrupt_sam_nvic.xcl
+build init.pbi : index init.xcl
+build led.pbi : index led.xcl
+build pio.pbi : index pio.xcl
+build pio_handler.pbi : index pio_handler.xcl
+build pmc.pbi : index pmc.xcl
+build sleep.pbi : index sleep.xcl
+build main.pbi : index main.xcl
+build startup_sam3s.pbi : index startup_sam3s.xcl
+build exceptions.pbi : index exceptions.xcl
+build system_sam3s.pbi : index system_sam3s.xcl
+build cmsis_cm3_bit_banding_example_flash_part0.pbi : link sysclk.pbi interrupt_sam_nvic.pbi init.pbi
+build cmsis_cm3_bit_banding_example_flash_part1.pbi : link led.pbi pio.pbi pio_handler.pbi
+build cmsis_cm3_bit_banding_example_flash_part2.pbi : link pmc.pbi sleep.pbi main.pbi
+build cmsis_cm3_bit_banding_example_flash_part3.pbi : link startup_sam3s.pbi exceptions.pbi system_sam3s.pbi
+build cmsis_cm3_bit_banding_example_flash.pbd : link cmsis_cm3_bit_banding_example_flash_part0.pbi cmsis_cm3_bit_banding_example_flash_part1.pbi cmsis_cm3_bit_banding_example_flash_part2.pbi cmsis_cm3_bit_banding_example_flash_part3.pbi
+build cmsis_cm3_bit_banding_example_flash.pbw : browsedata cmsis_cm3_bit_banding_example_flash.pbd
+
+

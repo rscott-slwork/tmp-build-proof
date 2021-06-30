@@ -1,0 +1,49 @@
+#Generating source browse information for project spi_example_flash
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build sysclk.pbi : index sysclk.xcl
+build usart_serial.pbi : index usart_serial.xcl
+build interrupt_sam_nvic.pbi : index interrupt_sam_nvic.xcl
+build read.pbi : index read.xcl
+build write.pbi : index write.xcl
+build init.pbi : index init.xcl
+build led.pbi : index led.xcl
+build pio.pbi : index pio.xcl
+build pio_handler.pbi : index pio_handler.xcl
+build pmc.pbi : index pmc.xcl
+build sleep.pbi : index sleep.xcl
+build spi_example.pbi : index spi_example.xcl
+build spi.pbi : index spi.xcl
+build uart.pbi : index uart.xcl
+build usart.pbi : index usart.xcl
+build startup_sam3x.pbi : index startup_sam3x.xcl
+build exceptions.pbi : index exceptions.xcl
+build system_sam3x.pbi : index system_sam3x.xcl
+build spi_example_flash_part0.pbi : link sysclk.pbi usart_serial.pbi interrupt_sam_nvic.pbi read.pbi
+build spi_example_flash_part1.pbi : link write.pbi init.pbi led.pbi pio.pbi
+build spi_example_flash_part2.pbi : link pio_handler.pbi pmc.pbi sleep.pbi spi_example.pbi
+build spi_example_flash_part3.pbi : link spi.pbi uart.pbi usart.pbi startup_sam3x.pbi
+build spi_example_flash_part4.pbi : link exceptions.pbi system_sam3x.pbi
+build spi_example_flash.pbd : link spi_example_flash_part0.pbi spi_example_flash_part1.pbi spi_example_flash_part2.pbi spi_example_flash_part3.pbi spi_example_flash_part4.pbi
+build spi_example_flash.pbw : browsedata spi_example_flash.pbd
+
+

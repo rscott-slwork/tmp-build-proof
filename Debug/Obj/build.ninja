@@ -1,0 +1,42 @@
+#Generating source browse information for project concept
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build init.pbi : index init.xcl
+build sysclk.pbi : index sysclk.xcl
+build adc.pbi : index adc.xcl
+build pio.pbi : index pio.xcl
+build pio_handler.pbi : index pio_handler.xcl
+build pmc.pbi : index pmc.xcl
+build sleep.pbi : index sleep.xcl
+build spi.pbi : index spi.xcl
+build uart.pbi : index uart.xcl
+build system_sam3s.pbi : index system_sam3s.xcl
+build pio_config.pbi : index pio_config.xcl
+build main.pbi : index main.xcl
+build concept_part0.pbi : link init.pbi sysclk.pbi adc.pbi
+build concept_part1.pbi : link pio.pbi pio_handler.pbi pmc.pbi
+build concept_part2.pbi : link sleep.pbi spi.pbi uart.pbi
+build concept_part3.pbi : link system_sam3s.pbi pio_config.pbi main.pbi
+build concept.pbd : link concept_part0.pbi concept_part1.pbi concept_part2.pbi concept_part3.pbi
+build concept.pbw : browsedata concept.pbd
+
+

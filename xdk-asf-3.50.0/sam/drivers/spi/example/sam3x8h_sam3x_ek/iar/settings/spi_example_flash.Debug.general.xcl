@@ -1,0 +1,17 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armjlink2.dll" 
+
+"\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar\Debug\Exe\spi_example_flash.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\debugger\Microchip\SAM3XA.dmac" 
+
+--macro="\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar\../../../../../boards/sam3x_ek/debug_scripts/iar/sam3x_ek_flash.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\Microchip\sam3x8\sam3x8-flash.board" 
+
+
+
+

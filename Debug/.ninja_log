@@ -1,0 +1,14 @@
+# ninja log v5
+36	2077	6467107906175016	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/common/boards/user_board/init.o	9ca3fcf009c7cfa4
+42	2199	6467107906313281	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/common/services/clock/sam3s/sysclk.o	a969563964801a51
+49	2422	6467107907540968	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/adc/adc.o	a348d0bb572957ac
+2519	3704	6467107923308034	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/pio/pio_handler.o	74bb830e782dcd45
+2335	3841	6467107923676790	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/pmc/sleep.o	899406ed209fe187
+2184	4010	6467107925010021	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/pmc/pmc.o	9bc88f9b5af86992
+4117	5286	6467107939218239	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/main.o	282612085a092696
+3799	5421	6467107939488810	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/spi/spi.o	9251e0619fd159a3
+3943	5540	6467107939995343	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/pio/pio.o	fde7abe71f9c399b
+5642	6720	6467107953342529	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/sam/utils/cmsis/sam3s/source/templates/system_sam3s.o	d264b10142d66ac3
+5383	6873	6467107953547293	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/ASF/drivers/uart/uart.o	95aab76b449dc821
+5524	6995	6467107955883808	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Obj/config/pio_config.o	74b90190912b19d0
+7086	8087	6467107967260001	//Mac/Home/Desktop/ant_merge_pump_test/Debug/Exe/concept.out	5162945d047ddd57

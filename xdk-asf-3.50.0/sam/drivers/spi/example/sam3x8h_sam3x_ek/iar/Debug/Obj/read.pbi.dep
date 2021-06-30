@@ -1,0 +1,109 @@
+read.pbi: \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\utils\stdio\read.c \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils\compiler.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Config_Normal.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iccarm_builtin.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\iar_intrinsics_common.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../../common/utils\parts.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/preprocessor\preprocessor.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/preprocessor/tpaste.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/preprocessor/stringz.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/preprocessor/mrepeat.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/preprocessor/preprocessor.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/header_files\io.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include\sam3xa.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/sam3x8h.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include\core_cm3.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/cmsis_version.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/cmsis_compiler.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include\cmsis_iccarm.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\CMSIS\Core\Include/mpu_armv7.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/source/templates\system_sam3x.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_adc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_can.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_chipid.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_dacc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_dmac.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_efc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_emac.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_gpbr.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_hsmci.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_matrix.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_pdc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_pio.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_pmc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_pwm.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_rstc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_rtc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_rtt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_sdramc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_smc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_spi.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_ssc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_supc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_tc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_trng.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_twi.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_uart.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_uotghs.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_usart.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/component/component_wdt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_hsmci.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_ssc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_spi0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_spi1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_tc0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_tc1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_tc2.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_twi0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_twi1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_pwm.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_usart0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_usart1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_usart2.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_usart3.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_uotghs.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_emac.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_can0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_can1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_trng.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_adc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_dmac.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_dacc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_smc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_sdramc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_matrix.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_pmc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_uart.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_chipid.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_efc0.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_efc1.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_pioa.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_piob.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_pioc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_piod.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_pioe.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_piof.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_rstc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_supc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_rtt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_wdt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_rtc.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/instance/instance_gpbr.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../utils/cmsis/sam3x/include/pio/pio_sam3x8h.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\DLib_Product_stdlib.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../../common/utils\interrupt.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\spi\example\sam3x8h_sam3x_ek\iar/../../../../../../common/utils/interrupt/interrupt_sam_nvic.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\yfuns.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\LowLevelIOInterface.h
