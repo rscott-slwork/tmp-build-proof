@@ -336,23 +336,23 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\utils</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\preprocessor</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\header_files</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\thirdparty\CMSIS\Include</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\clock\sam3s</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\ioport</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\board_config</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\config</state>
-                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pio</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\utils</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\preprocessor</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\header_files</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\thirdparty\CMSIS\Include</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates</state>
+                    <state>$PROJ_DIR$</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\services\clock\sam3s</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\services\ioport</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\boards</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\board_config</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pmc</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include</state>
+                    <state>$PROJ_DIR$\config</state>
+                    <state>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
