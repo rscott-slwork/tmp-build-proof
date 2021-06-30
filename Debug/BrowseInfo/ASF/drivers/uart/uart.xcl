@@ -1,4 +1,4 @@
-"\\Mac\Home\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c"
+"\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\uart\uart.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
@@ -9,7 +9,7 @@
 -o
 \\Mac\Home\Desktop\ant_merge_pump_test\Debug\BrowseInfo\ASF\drivers\uart\uart.pbi
 -I
-\\Mac\Home\Downloads\xdk-asf-3.39.0\sam\drivers\uart
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\uart
 -I
 \\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\utils
 -I

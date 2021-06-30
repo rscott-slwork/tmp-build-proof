@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>1414015349</fileChecksum>
+    <fileChecksum>435912057</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\user_board.h</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\init.c</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\board.h</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\asf.h</file>
+            <file>$PROJ_DIR$\main.c</file>
         </outputs>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>

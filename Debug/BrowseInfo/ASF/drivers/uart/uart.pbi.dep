@@ -1,6 +1,6 @@
 \\Mac\Home\Desktop\ant_merge_pump_test\Debug\BrowseInfo\ASF\drivers\uart\uart.pbi: \
-  \\Mac\Home\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c \
-  \\Mac\Home\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.h \
+  \\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\uart\uart.c \
+  \\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\uart\uart.h \
   \\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\compiler.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \

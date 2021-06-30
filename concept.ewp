@@ -2229,10 +2229,10 @@
             <group>
                 <name>uart</name>
                 <file>
-                    <name>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\uart\uart.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.h</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\uart\uart.h</name>
                 </file>
             </group>
         </group>
