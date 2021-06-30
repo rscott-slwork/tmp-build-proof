@@ -336,23 +336,23 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\utils</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\preprocessor</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\header_files</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\thirdparty\CMSIS\Include</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\ioport</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\config</state>
-                    <state>\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\pio</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\utils</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\preprocessor</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\header_files</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\thirdparty\CMSIS\Include</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\clock\sam3s</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\ioport</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\board_config</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\config</state>
+                    <state>\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pio</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2113,14 +2113,14 @@
                     <group>
                         <name>board_config</name>
                         <file>
-                            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config\conf_board.h</name>
+                            <name>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\board_config\conf_board.h</name>
                         </file>
                     </group>
                     <file>
-                        <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\init.c</name>
+                        <name>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\init.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\user_board.h</name>
+                        <name>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\user_board\user_board.h</name>
                     </file>
                 </group>
                 <file>
@@ -2205,16 +2205,16 @@
             <group>
                 <name>pmc</name>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.h</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pmc\pmc.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.h</name>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pmc\sleep.h</name>
                 </file>
             </group>
             <group>

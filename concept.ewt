@@ -2850,14 +2850,14 @@
                     <group>
                         <name>board_config</name>
                         <file>
-                            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config\conf_board.h</name>
+                            <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\board_config\conf_board.h</name>
                         </file>
                     </group>
                     <file>
-                        <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\init.c</name>
+                        <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\init.c</name>
                     </file>
                     <file>
-                        <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\user_board.h</name>
+                        <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\user_board.h</name>
                     </file>
                 </group>
                 <file>
@@ -2936,16 +2936,16 @@
             <group>
                 <name>pmc</name>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
+                    <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.h</name>
+                    <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc\pmc.h</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
+                    <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.h</name>
+                    <name>$PROJ_DIR$\..\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc\sleep.h</name>
                 </file>
             </group>
             <group>

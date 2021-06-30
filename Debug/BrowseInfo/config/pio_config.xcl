@@ -11,39 +11,39 @@
 -I
 \\Mac\Home\Desktop\ant_merge_pump_test\config
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\utils
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\utils
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\preprocessor
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\preprocessor
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\header_files
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\header_files
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\thirdparty\CMSIS\Include
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\thirdparty\CMSIS\Include
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates
 -I
-\\Mac\Home\Desktop\project_asf_concept
+\\Mac\Home\Desktop\ant_merge_pump_test
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\clock\sam3s
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\ioport
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\ioport
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config\
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\board_config
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include\
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include
 -I
-\\Mac\Home\Desktop\project_asf_concept\config
+\\Mac\Home\Desktop\ant_merge_pump_test\config
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\pio
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pio
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\aarch32
 -I
@@ -51,39 +51,39 @@ C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\utils
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\utils
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\preprocessor
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\preprocessor
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\header_files
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\header_files
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\thirdparty\CMSIS\Include
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\thirdparty\CMSIS\Include
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates
 -I
-\\Mac\Home\Desktop\project_asf_concept
+\\Mac\Home\Desktop\ant_merge_pump_test
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\clock\sam3s
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\ioport
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\services\ioport
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\common\boards\user_board\board_config
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pmc
 -I
-\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include
 -I
-\\Mac\Home\Desktop\project_asf_concept\config
+\\Mac\Home\Desktop\ant_merge_pump_test\config
 -I
-\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\pio
+\\Mac\Home\Desktop\ant_merge_pump_test\xdk-asf-3.50.0\sam\drivers\pio
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
